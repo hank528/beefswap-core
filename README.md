@@ -1,11 +1,11 @@
-# Uniswap V2
+# Beefswap V2
 
-[![Actions Status](https://github.com/Uniswap/uniswap-v2-core/workflows/CI/badge.svg)](https://github.com/Uniswap/uniswap-v2-core/actions)
-[![Version](https://img.shields.io/npm/v/@uniswap/v2-core)](https://www.npmjs.com/package/@uniswap/v2-core)
+[![Actions Status](https://github.com/Beefswap/beefswap-v2-core/workflows/CI/badge.svg)](https://github.com/Beefswap/beefswap-v2-core/actions)
+[![Version](https://img.shields.io/npm/v/@beefswap/v2-core)](https://www.npmjs.com/package/@beefswap/v2-core)
 
-In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
+In-depth documentation on Beefswap V2 is available at [beefswap.org](https://beefswap.org/docs).
 
-The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
+The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@beefswap/v2-core@latest/).
 
 # Local Development
 
