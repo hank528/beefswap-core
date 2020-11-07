@@ -1,11 +1,11 @@
 {
-  "name": "@beafswap/v2-core",
-  "description": "🎛 Core contracts for the BeefswapV2 protocol",
+  "name": "@beafswap/core",
+  "description": "🎛 Core contracts for the Beefswap protocol",
   "version": "1.0.1",
   "homepage": "https://beefswap.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Beefswap/beefswap-v2-core"
+    "url": "https://github.com/hank528/beefswap-core"
   },
   "keywords": [
     "beefswap",
