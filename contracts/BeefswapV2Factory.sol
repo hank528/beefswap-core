@@ -7,6 +7,9 @@ contract BeefswapV2Factory is IBeefswapV2Factory {
     address public feeTo;
     address public feeToSetter;
 
+    bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(BeefswapV2Pair).creationCode));
+
+
     mapping(address => mapping(address => address)) public getPair;
     address[] public allPairs;
 
