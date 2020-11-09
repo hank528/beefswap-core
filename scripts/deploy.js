@@ -18,7 +18,6 @@ async function main() {
   const greeter = await Greeter.deploy('0xcbbC0f3B89D4e57bc2fdED06D063F8aE885bb05B');
 
   await greeter.deployed();
-
   console.log("Greeter deployed to:", greeter.address);
 }
 
