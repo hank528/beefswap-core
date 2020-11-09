@@ -19,6 +19,8 @@ async function main() {
 
   await greeter.deployed();
   console.log("Greeter deployed to:", greeter.address);
+  //Verify & Publish Contract Source Code
+  //npx hardhat verify --network ropsten  0x6414C619368c489f59e5477d7c6c356386f24477 "0xcbbC0f3B89D4e57bc2fdED06D063F8aE885bb05B"
 }
 
 // We recommend this pattern to be able to use async/await everywhere
