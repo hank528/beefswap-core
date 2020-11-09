@@ -5,7 +5,6 @@ var web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/v
 var fs = require("fs");
 var data = fs.readFileSync("./artifacts/contracts/BeefswapV2ERC20.sol/BeefswapV2ERC20.json", "utf-8");
 
-//console.log(JSON.parse(data).abi);
 //创建合约对象
 var contract = new web3.eth.Contract(JSON.parse(data).abi,'0x83e9ad4df79D54e5AE9697Ec61b0653aEE3aa204');
 

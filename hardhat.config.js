@@ -30,7 +30,10 @@ task("balance", "Prints an account's balance")
 module.exports = {
   defaultNetwork: "ropsten",
   networks: {
-    hardhat: {
+    mainnet: {
+      url: "https://mainnet.infura.io/v3/30bf4bface004c04b0ee6fa05753adca",
+      accounts: ['8cbbd8190746b7df88b5fd311d7fb73fe37c0267328fb4b23005dfe8e1d74be6'],
+      gasPrice: 20000000000   
     },
     ropsten: {
       url: "https://ropsten.infura.io/v3/95dbd9a5623a427e971285c3cfd87a7d",
