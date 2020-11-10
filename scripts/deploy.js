@@ -15,12 +15,11 @@ async function main() {
 
   // We get the contract to deploy
   const Greeter = await hre.ethers.getContractFactory("BeefswapV2Factory");
-  const greeter = await Greeter.deploy('0x25c0F405d71A189352575d1afcD18245c04D85Eb');
+  const greeter = await Greeter.deploy('0xcbbC0f3B89D4e57bc2fdED06D063F8aE885bb05B');
 
   await greeter.deployed();
+
   console.log("Greeter deployed to:", greeter.address);
-  //Verify & Publish Contract Source Code
-  //npx hardhat verify --network ropsten  0x6414C619368c489f59e5477d7c6c356386f24477 "0x25c0F405d71A189352575d1afcD18245c04D85Eb"
 }
 
 // We recommend this pattern to be able to use async/await everywhere
@@ -30,4 +29,4 @@ main()
   .catch(error => {
     console.error(error);
     process.exit(1);
-  });  
+  });
