@@ -37,7 +37,7 @@ module.exports = {
     },
     ropsten: {
       url: "https://ropsten.infura.io/v3/95dbd9a5623a427e971285c3cfd87a7d",
-      accounts: ['8ba87cdc753452ea2f95f89604f62dfb678fcf845c5f89f3db77589edaa7090b']
+      accounts: ['8cbbd8190746b7df88b5fd311d7fb73fe37c0267328fb4b23005dfe8e1d74be6']
     }
   },
   solidity: {
@@ -45,8 +45,9 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200
-      }
+        runs: 999999
+      },
+      evmVersion : "istanbul"
     }
   },
   paths: {
